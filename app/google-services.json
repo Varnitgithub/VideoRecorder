@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "412468757994",
+    "project_id": "consassessment",
+    "storage_bucket": "consassessment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412468757994:android:fef793bcdcc528314ade93",
+        "android_client_info": {
+          "package_name": "com.example.consassessment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412468757994-omu312t6k42l28af4i45ro8jafprukfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPQGXKXfKz1L7QgsKH3oreNqecFRNxvDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412468757994-omu312t6k42l28af4i45ro8jafprukfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

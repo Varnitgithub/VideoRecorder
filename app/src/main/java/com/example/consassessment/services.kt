@@ -1,0 +1,24 @@
+package com.example.consassessment
+
+import android.app.Service
+import android.content.Intent
+import android.os.IBinder
+
+class services: Service() {
+    override fun onBind(intent: Intent?): IBinder? {
+        return null
+    }
+
+    override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
+        return super.onStartCommand(intent, flags, startId)
+
+var runnable:Runnable = Runnable{
+
+}
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+
+    }
+}

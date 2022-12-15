@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+  <ImageView
+      android:id="@+id/Thumbnailimage"
+      android:layout_width="match_parent"
+      android:layout_height="180dp"
+      android:scaleType="centerCrop"
+      android:src="@mipmap/ic_launcher"
+      android:contentDescription="TODO" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="2"
+            tools:text="Name"
+            android:textSize="25sp"
+            android:gravity="center"
+            tools:ignore="NestedWeights" />
+        <TextView
+            android:id="@+id/Duration"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            tools:text="duration"
+            android:textSize="25sp"
+
+            android:layout_weight="1"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/Coordinates"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            tools:text="Coordinates"
+            android:textSize="25sp"
+
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
